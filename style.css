@@ -1,0 +1,37 @@
+body {
+  background-color: white;
+}
+h1 {
+  background-color: white;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 100%;
+  margin: auto;
+}
+.post {
+  background-color: white;
+  width: 350px;
+  height: 475px;
+  margin-left: 575px;
+  margin-bottom: 50px;
+  border: 2px solid rgb(0, 149, 255);
+}
+.post-header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 2px solid blue;
+}
+.post img {
+  width: 100%;
+}
+.post-footer {
+  background-color: white;
+  border-bottom: 0px solid blue;
+  border-top: 2px solid blue;
+}
